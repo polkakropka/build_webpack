@@ -1,0 +1,32 @@
+.bc {
+    &--primary {
+        background-color: $color-primary;
+    }
+    &--secondary {
+        background-color: $color-secondary;
+    }
+    &--lightgrey {
+        background-color: $color-lightgrey;
+    }
+}
+
+.fc {
+    &--primary {
+        color: $color-primary;
+    }
+    &--secondary {
+        color: $color-secondary;
+    }
+    &--lightgrey {
+        color: $color-lightgrey;
+    }
+    &--gunmetal {
+        color: $color-gunmetal;
+    }
+    &--grey {
+        color: $color-grey;
+    }
+    &--white {
+        color: $color-white;
+    }
+}

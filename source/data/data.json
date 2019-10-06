@@ -1,0 +1,12 @@
+{
+    "buttonText" : "Button",
+    "radioText" : "Radio",
+    "checkboxText" : "Checkbox",
+    "headline": "Headline",
+    "listItem": "List item",
+    "listItems": [{"listItem" : "List item 1"}, {"listItem" : "List item 2"}, {"listItem" : "List item 3"}, {"listItem" : "List item 4"}],
+    "linkText": "Mehr erfahren",
+    "link": "#",
+    "title": "Boilerplate",
+    "text": "Blindtexte nennt man Texte, die bei der Produktion von Publikationen oder Webseiten als Platzhalter für spätere Inhalte stehen, wenn der eigentliche Text noch nicht vorhanden ist. Sie werden auch als Dummy-, Füll- oder Platzhaltertexte bezeichnet. Mitunter sollen Komponisten von Liedern Blindtexte beim Komponieren von Melodien benutzen und diese vor dem Dichten des Liedtextes singen. Bereits seit dem 16. Jahrhundert dürften Blindtexte bei Setzern üblich gewesen sein."
+}

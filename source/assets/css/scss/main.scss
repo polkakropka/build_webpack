@@ -1,0 +1,71 @@
+// VENDOR
+
+@import './node_modules/bootstrap/scss/bootstrap-grid';
+@import './node_modules/tiny-slider/src/tiny-slider.scss';
+
+// SETTINGS
+
+// The general variables used in the project are defined in
+// the settings e.g. colors, font-sizes ...
+
+@import './00-settings/00-general';
+@import './00-settings/05-colors';
+@import './00-settings/10-fonts';
+@import './00-settings/15-paths';
+
+
+// TOOLS
+
+// The used mixins and functions are based in the tools
+
+
+// GENERIC
+
+// Generic content like resets and normalizes
+
+@import './10-generic/00-box-sizing';
+@import './10-generic/05-resets';
+
+
+// ELEMENTS
+
+// General styling of html elements and general html
+
+@import './15-elements/00-fonts';
+@import './15-elements/05-page';
+
+
+// OBJECTS
+
+// Undecorted design patterns
+
+
+// HELPERS
+
+// General helpers
+
+@import './25-helpers/00-fonts';
+@import './25-helpers/05-margin';
+@import './25-helpers/10-padding';
+@import './25-helpers/15-colors';
+@import './25-helpers/20-flex';
+@import './25-helpers/25-page';
+@import './25-helpers/30-general';
+@import './25-helpers/35-text';
+
+
+// COMPONENTS
+
+// ATOMS
+// Atoms within the components
+
+@import './30-components/00-atoms/00-general/00-text';
+@import './30-components/00-atoms/10-other/00-delimiter';
+
+// MOLECULES
+// Molecules within the components
+@import './30-components/05-molecules/10-teaser/00-img-teaser';
+
+// OGRANISMS
+
+@import '30-components/10-organisms/00-globals/15-light-box/00-light-box';

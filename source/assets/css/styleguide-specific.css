@@ -1,0 +1,39 @@
+.sg-header {
+        background: #009C83;
+}
+
+.sg-pattern-example>.nav__search {
+        width: auto;
+}
+
+.sg-pattern-example>.nav_subMenu,
+.sg-pattern-example>.nav__search {
+        display: block;
+        position: static;
+}
+
+.sg-pattern-example>.logo {
+        padding: 15px;
+        background-color: #009C83;
+}
+
+.sg-pattern-example .nav {
+        position: static;
+}
+
+#atoms-logo img {
+        background-color: #009C83;
+        padding: 15px;
+}
+
+@media (min-width: 992px) {
+        .sg-pattern-example>.teaser {
+                max-width: 350px;
+        }
+        .sg-pattern-example>.teaser--md {
+                max-width: 540px;
+        }
+        .sg-pattern-example>.teaser--lg {
+                max-width: 760px;
+        }
+}

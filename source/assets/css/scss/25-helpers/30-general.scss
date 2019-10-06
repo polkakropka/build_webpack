@@ -1,0 +1,20 @@
+.stretch {
+    &--w {
+        width: 100%;
+    }
+    &--h {
+        height: 100%;
+    }
+    &--hMargin {
+        height: calc(100% - #{$gutter-width*4});
+    }
+}
+
+.cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.clearIt {
+    clear: both;
+}

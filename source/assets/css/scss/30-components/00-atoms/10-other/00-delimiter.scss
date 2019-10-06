@@ -1,0 +1,8 @@
+// Delimiter
+.section__divide {
+    margin-bottom: $gutter-width*3;
+    border: 0;
+    border-top: 1px solid $color-grey-divider;
+    display: block;
+    width: 100%;
+}

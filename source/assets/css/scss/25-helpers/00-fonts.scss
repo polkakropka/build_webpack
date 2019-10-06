@@ -1,0 +1,69 @@
+// FONT SIZES
+.fs {
+    &--sm {
+        font-size: $font-sm;
+    }
+    &--md {
+        font-size: $font-md;
+    }
+    &--lg {
+        font-size: $font-lg;
+    }
+    &--xl {
+        font-size: $font-xl;
+    }
+    &--xxl {
+        font-size: $font-xxl;
+    }
+    &--xxxl {
+        font-size: $font-xxxl;
+    }
+}
+
+
+// FONT WEIGHTS
+.fw {
+    &--r {
+        font-weight: 400;
+    }
+    &--b {
+        font-weight: 700;
+    }
+}
+
+// HEADLINES
+.hl {
+    @extend .fw--b;
+    &--sm {
+        @extend .fs--sm;
+    }
+    &--md {
+        @extend .fs--md;
+    }
+    &--lg {
+        @extend .fs--lg;
+    }
+    &--xl {
+        @extend .fs--xl;
+    }
+    &--xxl {
+        @extend .fs--xxl;
+    }
+}
+
+.lh {
+    &--1 {
+        line-height: 1;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .fs {
+        &--xxl, &--xl {
+            font-size: $font-lg;
+        }
+        &--xxxl {
+            font-size: $font-xl;
+        }
+    }
+}

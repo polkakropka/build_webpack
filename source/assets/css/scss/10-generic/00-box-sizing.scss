@@ -1,0 +1,14 @@
+// BOX-SIZING
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+main {
+    padding-top: $gutter-width * 6
+}

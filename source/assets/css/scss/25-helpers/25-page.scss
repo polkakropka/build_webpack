@@ -1,0 +1,9 @@
+.push {
+    transition: transform 0.5s;
+}
+
+@include media-breakpoint-down(md) {
+    .push--nav{
+        transform: translateX(-275px);
+    }
+}
